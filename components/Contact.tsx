@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
             <div className="w-24 h-1 bg-black dark:bg-white mx-auto mt-4"></div>
         </div>
         <p className="text-center text-gray-800 dark:text-gray-300 max-w-2xl mx-auto mb-12">
-          I'm currently open to new opportunities and collaborations. My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+          I'm currently open to new opportunities and collaborations. My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you! For Quick connect please call o +91 9828051996
         </p>
         <div className="flex justify-center items-center space-x-8">
           <a href={`mailto:${PERSONAL_INFO.contact.email}`} className="text-gray-800 dark:text-gray-300 hover:text-black dark:hover:text-white transition-transform duration-300 transform hover:scale-110" aria-label="Email">
