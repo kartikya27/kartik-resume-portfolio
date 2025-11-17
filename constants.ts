@@ -6,7 +6,7 @@ export const PERSONAL_INFO = {
   bio: "Results-driven Senior eCommerce Developer and Digital Transformation Expert with 9+ years of cross-functional experience in backend development, eCommerce architecture, and visual effects. Specialized in Laravel (up to v11), RESTful API, Composer package development, and marketplace integration with 7+ years of relevant development experience. Proven record of leading digital commerce projects end-to-end, delivering scalable solutions, and driving process automation. Former VFX faculty with strong creative and technical acumen.",
   contact: {
     email: "kartikya27@gmail.com",
-    github: "https://github.com/kartik-sen", // Placeholder
+    github: "https://github.com/kartikya27",
     linkedin: "https://www.linkedin.com/in/kartikmaandothiya",
   }
 };
@@ -61,21 +61,21 @@ export const PROJECTS: Project[] = [
     imageUrl: "https://placehold.co/600x400/ffffff/121212/png?text=Stegback",
     liveUrl: "https://stegback.de",
   },
-  {
-    name: "E-commerce Platform",
-    description: "A custom e-commerce solution for SMEs, designed to boost workflow speeds and provide secure payment and order modules.",
-    tags: ["PHP", "CodeIgniter", "MySQL", "Bootstrap", "jQuery"],
-    imageUrl: "https://placehold.co/600x400/ffffff/121212/png?text=E-commerce",
-    liveUrl: "#",
-    githubUrl: "#"
-  },
-  {
-    name: "Digital Transformation Dashboard",
-    description: "An internal tool for process automation, featuring CI/CD pipeline management and performance monitoring for APIs.",
-    tags: ["React", "Node.js", "Docker", "GitHub Actions", "Tailwind CSS"],
-    imageUrl: "https://placehold.co/600x400/ffffff/121212/png?text=Dashboard",
-    liveUrl: "#",
-  }
+  // {
+  //   name: "E-commerce Platform",
+  //   description: "A custom e-commerce solution for SMEs, designed to boost workflow speeds and provide secure payment and order modules.",
+  //   tags: ["PHP", "CodeIgniter", "MySQL", "Bootstrap", "jQuery"],
+  //   imageUrl: "https://placehold.co/600x400/ffffff/121212/png?text=E-commerce",
+  //   liveUrl: "#",
+  //   githubUrl: "#"
+  // },
+  // {
+  //   name: "Digital Transformation Dashboard",
+  //   description: "An internal tool for process automation, featuring CI/CD pipeline management and performance monitoring for APIs.",
+  //   tags: ["React", "Node.js", "Docker", "GitHub Actions", "Tailwind CSS"],
+  //   imageUrl: "https://placehold.co/600x400/ffffff/121212/png?text=Dashboard",
+  //   liveUrl: "#",
+  // }
 ];
 
 
@@ -110,6 +110,7 @@ export const SKILLS: SkillCategory[] = [
       { name: "Git", icon: "fab fa-git-alt" },
       { name: "CI/CD", icon: "fas fa-sync-alt" },
       { name: "Vercel", icon: "fas fa-cloud-upload-alt" },
+      { name: "AWS", icon: "fas fa-aws" },
     ],
   },
   {
@@ -119,7 +120,7 @@ export const SKILLS: SkillCategory[] = [
         { name: "Team Leadership", icon: "fas fa-users" },
         { name: "Composer", icon: "fas fa-box-open" },
         { name: "Postman", icon: "fas fa-space-shuttle" },
-        { name: "ChatGPT", icon: "fas fa-robot" },
+        { name: "ChatGPT/CursorAi", icon: "fas fa-robot" },
     ]
   }
 ];
