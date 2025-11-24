@@ -54,13 +54,13 @@ export const WORK_EXPERIENCE: Experience[] = [
 ];
 
 export const PROJECTS: Project[] = [
-  {
-    name: "Stegback Marketplace",
-    description: "A scalable multi-vendor B2B/B2C marketplace for the German market, featuring robust order automation and payment gateway integration.",
-    tags: ["Node.js", "React", "Laravel", "Microservices", "RESTful API"],
-    imageUrl: "https://placehold.co/600x400/ffffff/121212/png?text=Stegback",
-    liveUrl: "https://stegback.de",
-  },
+  // {
+  //   name: "Stegback Marketplace",
+  //   description: "A scalable multi-vendor B2B/B2C marketplace for the German market, featuring robust order automation and payment gateway integration.",
+  //   tags: ["Node.js", "React", "Laravel", "Microservices", "RESTful API"],
+  //   imageUrl: "https://placehold.co/600x400/ffffff/121212/png?text=Stegback",
+  //   liveUrl: "https://stegback.de",
+  // },
   // {
   //   name: "E-commerce Platform",
   //   description: "A custom e-commerce solution for SMEs, designed to boost workflow speeds and provide secure payment and order modules.",
